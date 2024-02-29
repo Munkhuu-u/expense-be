@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "Munkhbat",
+      "email": "munhu@gmail.com",
+      "password": "Munkhbatpass123"
+    },
+    {
+      "username": "Enkhtuya",
+      "email": "tuyaa@gmail.com",
+      "password": "Enkhtuyapass123"
+    },
+    {
+      "username": "Temuulen",
+      "email": "temuu@gmail.com",
+      "password": "Temuulenpass123"
+    }
+  ]
+}
