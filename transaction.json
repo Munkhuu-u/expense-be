@@ -7,8 +7,8 @@
       "amount": 1111,
       "transaction_type": "INCOME",
       "description": "Thank you",
-      "createdAt": "2024-03-01T18:20:00Z",
-      "updatedAt": "2024-03-01T18:25:00Z",
+      "createdAt": "2024-03-03T18:20:00Z",
+      "updatedAt": "2024-03-03T18:25:00Z",
       "category_id": "friends"
     },
     {
@@ -18,8 +18,8 @@
       "amount": 750,
       "transaction_type": "EXPENSE",
       "description": "Groceries",
-      "createdAt": "2024-03-01T19:30:00Z",
-      "updatedAt": "2024-03-01T19:35:00Z",
+      "createdAt": "2024-03-03T19:30:00Z",
+      "updatedAt": "2024-03-03T19:35:00Z",
       "category_id": "shopping"
     },
     {
@@ -29,8 +29,8 @@
       "amount": 2000,
       "transaction_type": "INCOME",
       "description": "Salary",
-      "createdAt": "2024-03-01T20:45:00Z",
-      "updatedAt": "2024-03-01T20:50:00Z",
+      "createdAt": "2024-03-03T20:45:00Z",
+      "updatedAt": "2024-03-03T20:50:00Z",
       "category_id": "work"
     },
     {
@@ -40,8 +40,8 @@
       "amount": 300,
       "transaction_type": "EXPENSE",
       "description": "Coffee",
-      "createdAt": "2024-03-01T21:00:00Z",
-      "updatedAt": "2024-03-01T21:05:00Z",
+      "createdAt": "2024-03-03T21:00:00Z",
+      "updatedAt": "2024-03-03T21:05:00Z",
       "category_id": "food"
     },
     {
@@ -51,8 +51,8 @@
       "amount": 1200,
       "transaction_type": "INCOME",
       "description": "Freelance",
-      "createdAt": "2024-03-01T22:15:00Z",
-      "updatedAt": "2024-03-01T22:20:00Z",
+      "createdAt": "2024-03-03T22:15:00Z",
+      "updatedAt": "2024-03-03T22:20:00Z",
       "category_id": "work"
     },
     {
@@ -62,8 +62,8 @@
       "amount": 50,
       "transaction_type": "EXPENSE",
       "description": "Miscellaneous",
-      "createdAt": "2024-03-01T23:30:00Z",
-      "updatedAt": "2024-03-01T23:35:00Z",
+      "createdAt": "2024-03-03T23:30:00Z",
+      "updatedAt": "2024-03-03T23:35:00Z",
       "category_id": "other"
     },
     {
@@ -73,8 +73,8 @@
       "amount": 900,
       "transaction_type": "INCOME",
       "description": "Consulting",
-      "createdAt": "2024-03-02T00:45:00Z",
-      "updatedAt": "2024-03-02T00:50:00Z",
+      "createdAt": "2024-03-04T00:45:00Z",
+      "updatedAt": "2024-03-04T00:50:00Z",
       "category_id": "work"
     },
     {
@@ -84,8 +84,8 @@
       "amount": 100,
       "transaction_type": "EXPENSE",
       "description": "Snacks",
-      "createdAt": "2024-03-02T02:00:00Z",
-      "updatedAt": "2024-03-02T02:05:00Z",
+      "createdAt": "2024-03-04T02:00:00Z",
+      "updatedAt": "2024-03-04T02:05:00Z",
       "category_id": "food"
     },
     {
@@ -95,8 +95,8 @@
       "amount": 1800,
       "transaction_type": "INCOME",
       "description": "Investment",
-      "createdAt": "2024-03-02T03:15:00Z",
-      "updatedAt": "2024-03-02T03:20:00Z",
+      "createdAt": "2024-03-04T03:15:00Z",
+      "updatedAt": "2024-03-04T03:20:00Z",
       "category_id": "finance"
     },
     {
@@ -106,8 +106,8 @@
       "amount": 300,
       "transaction_type": "EXPENSE",
       "description": "Clothing",
-      "createdAt": "2024-03-02T04:30:00Z",
-      "updatedAt": "2024-03-02T04:35:00Z",
+      "createdAt": "2024-03-04T04:30:00Z",
+      "updatedAt": "2024-03-04T04:35:00Z",
       "category_id": "shopping"
     },
     {
@@ -117,8 +117,8 @@
       "amount": 1600,
       "transaction_type": "INCOME",
       "description": "Project payment",
-      "createdAt": "2024-03-02T05:45:00Z",
-      "updatedAt": "2024-03-02T05:50:00Z",
+      "createdAt": "2024-03-04T05:45:00Z",
+      "updatedAt": "2024-03-04T05:50:00Z",
       "category_id": "work"
     },
     {
@@ -128,8 +128,8 @@
       "amount": 20,
       "transaction_type": "EXPENSE",
       "description": "Bus fare",
-      "createdAt": "2024-03-02T07:00:00Z",
-      "updatedAt": "2024-03-02T07:05:00Z",
+      "createdAt": "2024-03-04T07:00:00Z",
+      "updatedAt": "2024-03-04T07:05:00Z",
       "category_id": "travel"
     },
     {
@@ -139,8 +139,8 @@
       "amount": 1200,
       "transaction_type": "INCOME",
       "description": "Freelance",
-      "createdAt": "2024-03-02T08:15:00Z",
-      "updatedAt": "2024-03-02T08:20:00Z",
+      "createdAt": "2024-03-04T08:15:00Z",
+      "updatedAt": "2024-03-04T08:20:00Z",
       "category_id": "work"
     },
     {
@@ -150,8 +150,8 @@
       "amount": 40,
       "transaction_type": "EXPENSE",
       "description": "Magazine subscription",
-      "createdAt": "2024-03-02T09:30:00Z",
-      "updatedAt": "2024-03-02T09:35:00Z",
+      "createdAt": "2024-03-04T09:30:00Z",
+      "updatedAt": "2024-03-04T09:35:00Z",
       "category_id": "entertainment"
     },
     {
@@ -161,8 +161,8 @@
       "amount": 1500,
       "transaction_type": "INCOME",
       "description": "Consulting",
-      "createdAt": "2024-03-02T10:45:00Z",
-      "updatedAt": "2024-03-02T10:50:00Z",
+      "createdAt": "2024-03-04T10:45:00Z",
+      "updatedAt": "2024-03-04T10:50:00Z",
       "category_id": "work"
     },
     {
@@ -172,8 +172,8 @@
       "amount": 15,
       "transaction_type": "EXPENSE",
       "description": "Parking fee",
-      "createdAt": "2024-03-02T12:00:00Z",
-      "updatedAt": "2024-03-02T12:05:00Z",
+      "createdAt": "2024-03-04T12:00:00Z",
+      "updatedAt": "2024-03-04T12:05:00Z",
       "category_id": "travel"
     },
     {
@@ -183,8 +183,8 @@
       "amount": 800,
       "transaction_type": "INCOME",
       "description": "Freelance",
-      "createdAt": "2024-03-02T13:15:00Z",
-      "updatedAt": "2024-03-02T13:20:00Z",
+      "createdAt": "2024-03-04T13:15:00Z",
+      "updatedAt": "2024-03-04T13:20:00Z",
       "category_id": "work"
     },
     {
@@ -194,8 +194,8 @@
       "amount": 60,
       "transaction_type": "EXPENSE",
       "description": "Lunch",
-      "createdAt": "2024-03-02T14:30:00Z",
-      "updatedAt": "2024-03-02T14:35:00Z",
+      "createdAt": "2024-03-04T14:30:00Z",
+      "updatedAt": "2024-03-04T14:35:00Z",
       "category_id": "food"
     },
     {
@@ -205,8 +205,8 @@
       "amount": 1700,
       "transaction_type": "INCOME",
       "description": "Project payment",
-      "createdAt": "2024-03-02T15:45:00Z",
-      "updatedAt": "2024-03-02T15:50:00Z",
+      "createdAt": "2024-03-04T15:45:00Z",
+      "updatedAt": "2024-03-04T15:50:00Z",
       "category_id": "work"
     },
     {
@@ -216,8 +216,8 @@
       "amount": 25,
       "transaction_type": "EXPENSE",
       "description": "Bus fare",
-      "createdAt": "2024-03-02T17:00:00Z",
-      "updatedAt": "2024-03-02T17:05:00Z",
+      "createdAt": "2024-03-04T17:00:00Z",
+      "updatedAt": "2024-03-04T17:05:00Z",
       "category_id": "travel"
     },
     {
@@ -227,8 +227,8 @@
       "amount": 1100,
       "transaction_type": "INCOME",
       "description": "Consulting",
-      "createdAt": "2024-03-02T18:15:00Z",
-      "updatedAt": "2024-03-02T18:20:00Z",
+      "createdAt": "2024-03-04T18:15:00Z",
+      "updatedAt": "2024-03-04T18:20:00Z",
       "category_id": "work"
     },
     {
@@ -238,8 +238,8 @@
       "amount": 30,
       "transaction_type": "EXPENSE",
       "description": "Magazine subscription",
-      "createdAt": "2024-03-02T19:30:00Z",
-      "updatedAt": "2024-03-02T19:35:00Z",
+      "createdAt": "2024-03-04T19:30:00Z",
+      "updatedAt": "2024-03-04T19:35:00Z",
       "category_id": "entertainment"
     },
     {
@@ -249,8 +249,8 @@
       "amount": 1300,
       "transaction_type": "INCOME",
       "description": "Freelance",
-      "createdAt": "2024-03-02T20:45:00Z",
-      "updatedAt": "2024-03-02T20:50:00Z",
+      "createdAt": "2024-03-04T20:45:00Z",
+      "updatedAt": "2024-03-04T20:50:00Z",
       "category_id": "work"
     },
     {
@@ -260,8 +260,8 @@
       "amount": 45,
       "transaction_type": "EXPENSE",
       "description": "Snacks",
-      "createdAt": "2024-03-02T22:00:00Z",
-      "updatedAt": "2024-03-02T22:05:00Z",
+      "createdAt": "2024-03-04T22:00:00Z",
+      "updatedAt": "2024-03-04T22:05:00Z",
       "category_id": "food"
     },
     {
@@ -271,8 +271,8 @@
       "amount": 1900,
       "transaction_type": "INCOME",
       "description": "Investment",
-      "createdAt": "2024-03-02T23:15:00Z",
-      "updatedAt": "2024-03-02T23:20:00Z",
+      "createdAt": "2024-03-04T23:15:00Z",
+      "updatedAt": "2024-03-04T23:20:00Z",
       "category_id": "finance"
     },
     {
@@ -282,8 +282,8 @@
       "amount": 350,
       "transaction_type": "EXPENSE",
       "description": "Clothing",
-      "createdAt": "2024-03-03T00:30:00Z",
-      "updatedAt": "2024-03-03T00:35:00Z",
+      "createdAt": "2024-03-05T00:30:00Z",
+      "updatedAt": "2024-03-05T00:35:00Z",
       "category_id": "shopping"
     },
     {
@@ -293,8 +293,8 @@
       "amount": 1400,
       "transaction_type": "INCOME",
       "description": "Project payment",
-      "createdAt": "2024-03-03T01:45:00Z",
-      "updatedAt": "2024-03-03T01:50:00Z",
+      "createdAt": "2024-03-05T01:45:00Z",
+      "updatedAt": "2024-03-05T01:50:00Z",
       "category_id": "work"
     },
     {
@@ -304,8 +304,8 @@
       "amount": 55,
       "transaction_type": "EXPENSE",
       "description": "Coffee",
-      "createdAt": "2024-03-03T03:00:00Z",
-      "updatedAt": "2024-03-03T03:05:00Z",
+      "createdAt": "2024-03-05T03:00:00Z",
+      "updatedAt": "2024-03-05T03:05:00Z",
       "category_id": "food"
     },
     {
@@ -315,8 +315,8 @@
       "amount": 1000,
       "transaction_type": "INCOME",
       "description": "Consulting",
-      "createdAt": "2024-03-03T04:15:00Z",
-      "updatedAt": "2024-03-03T04:20:00Z",
+      "createdAt": "2024-03-05T04:15:00Z",
+      "updatedAt": "2024-03-05T04:20:00Z",
       "category_id": "work"
     },
     {
@@ -326,8 +326,8 @@
       "amount": 500,
       "transaction_type": "EXPENSE",
       "description": "Dinner",
-      "createdAt": "2024-03-03T05:30:00Z",
-      "updatedAt": "2024-03-03T05:35:00Z",
+      "createdAt": "2024-03-05T05:30:00Z",
+      "updatedAt": "2024-03-05T05:35:00Z",
       "category_id": "food"
     }
   ]
