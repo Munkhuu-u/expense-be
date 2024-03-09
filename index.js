@@ -39,6 +39,19 @@ app.get("/addUsersTable", async (req, res) => {
   res.status(200).send({ message: "add table working successfully" });
 });
 
+app.get("/addColumns", async (req, res) => {
+  const client = await pool.connect();
+  try {
+    client.query(
+      "ALTER TABLE users ADD id VARCHAR(255), ADD password VARCHAR(255), ADD createdAT VARCHAR(255), ADD currency_type VARCHAR(255)"
+    );
+  } catch (err) {
+    console.log(err);
+  } finally {
+    client.release();
+  }
+});
+
 app.post("/addUser", async (req, res) => {
   const user = req.body;
   console.log("req.body in BE: ", req.body);
