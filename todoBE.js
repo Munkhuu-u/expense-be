@@ -7,10 +7,11 @@
 //  Transaction
 
 //SIGNUP
-// REGISTER          CURRENTLY DOING
+// REGISTER                 DONE
+// Validation    
 
 //LOGIN
-// Check password
+// Check password           CURRENTLY WORKING ON
 
 //TRANSACTION
 // REGISTER

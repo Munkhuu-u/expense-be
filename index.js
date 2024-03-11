@@ -22,19 +22,42 @@ const pool = new Pool({
   },
 });
 
-app.post("/add-user", (req, res) => {
-  console.log("BE add-user ep working");
-  const body = req.body;
+app.post("/addUser", async (req, res) => {
+  // console.log(req.body)
+  const client = await pool.connect();
 
-  console.log("asdr", body);
-
-  res.status(200).send({ message: "added user successfully" });
+  try {
+    client.query(
+      `INSERT INTO users (name, email, id, password) VALUES ('${req.body.name}','${req.body.mail}', '${req.body.id}','${req.body.password}')`
+    );
+  } catch (err) {
+    console.log(err);
+  } finally {
+    client.release();
+    res.status(200).send({ message: "added user successfully" });
+  }
 });
 
 app.post("/sign-in", async (req, res) => {
-  console.log("BE-ruu amjilltai holbogdloo");
-  const body = req.body;
-  console.log(body);
+  const client = await pool.connect();
+  let result = "";
+  let loginConfirm = 0;
+  console.log("req.body.userName: ", req.body.userName);
+  try {
+    result = await client.query(
+      `SELECT name, password FROM users WHERE (name='${req.body.userName}')`
+    );
+  } catch (err) {
+    console.log(err);
+  } finally {
+    client.release();
+  }
+
+  if (req.body.password == result.rows[0].password) {
+    res.status(200).send({ message: "access granted" });
+  } else {
+    res.status(200).send({ message: "incorrect password or username" });
+  }
 });
 
 app.listen(3001, () => {
