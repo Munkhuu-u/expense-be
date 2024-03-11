@@ -4,9 +4,11 @@ const { Pool } = require("pg");
 require("dotenv").config();
 const dummyLog = require("./dummyLog.json");
 const transaction = require("./transaction.json");
+const bodyparser = require("body-parser");
 
 const app = express();
 app.use(cors());
+app.use(bodyparser.json());
 
 const { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, PGPORT } = process.env;
 const pool = new Pool({
@@ -20,8 +22,12 @@ const pool = new Pool({
   },
 });
 
-app.post("/addUser", async (req, res) => {
-  console.log("req.body: ", req.body);
+app.post("/add-user", (req, res) => {
+  console.log("BE add-user ep working");
+  const body = req.body;
+
+  console.log("asdr", body);
+
   res.status(200).send({ message: "added user successfully" });
 });
 
