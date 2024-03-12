@@ -15,7 +15,8 @@ const pool = new Pool({
 });
 
 exports.login = async (req, res) => {
-  console.log("BE E-P working fine");
+  console.log(req.body);
+  console.log("userName type: ", typeof req.body.userName);
   const client = await pool.connect();
   let result = "";
 
@@ -23,7 +24,8 @@ exports.login = async (req, res) => {
     result = await client.query(
       `SELECT name, password FROM users WHERE (name='${req.body.userName}')`
     );
-    if (req.body.password == result.rows[0].password) {
+    console.log("result.rows: ", result.rows);
+    if (req.body.password == result.rows[0]?.password) {
       res.status(200).send({ message: "access granted" });
     } else {
       res.status(200).send({ message: "incorrect password or username" });
