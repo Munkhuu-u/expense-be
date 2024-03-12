@@ -26,10 +26,6 @@ const pool = new Pool({
 
 exports.addUser = async (req, res) => {
   const client = await pool.connect();
-  console.log("addUser e-p working fine");
-  console.log("req.body: ", req.body);
-  console.log("working after route");
-
   try {
     await client.query(
       `INSERT INTO users (name, email, id, password) VALUES ('${req.body.name}','${req.body.mail}', '${req.body.id}','${req.body.password}')`
