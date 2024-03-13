@@ -21,4 +21,4 @@
 
 //CATEROGY
 // create table             DONE
-// REGISTER                 CURRENTLY WORKING
+// REGISTER                 DONE
