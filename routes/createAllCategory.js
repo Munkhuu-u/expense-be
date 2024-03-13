@@ -21,8 +21,8 @@ exports.createAllCategory = async (req, res) => {
       `INSERT INTO category (id, name) VALUES ('${req.body.id}', '${req.body.name}')`
     );
     res.status(200).send({ message: "SUCCESS" });
-  } catch (err) {
-    console.log(err);
+  } catch (error) {
+    throw new Error(error ? error.message : "Error");
   } finally {
     client.release();
   }

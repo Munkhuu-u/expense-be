@@ -1,4 +1,3 @@
-// const express = require("express");
 const { Pool } = require("pg");
 
 const { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, PGPORT } = process.env;
@@ -23,8 +22,8 @@ exports.updateCurrency = async (req, res) => {
       `UPDATE users SET currency_type = '${req.body.currency}' WHERE id='${req.body.id}'`
     );
     res.status(200).send({ message: "SUCCESS" });
-  } catch (err) {
-    console.log(err);
+  } catch (error) {
+    throw new Error(error ? error.message : "Error");
   } finally {
     client.release();
   }

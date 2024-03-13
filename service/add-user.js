@@ -1,6 +1,4 @@
-// const express = require("express");
 const { Pool } = require("pg");
-
 const { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, PGPORT } = process.env;
 
 const pool = new Pool({
@@ -14,16 +12,20 @@ const pool = new Pool({
   },
 });
 
-exports.getCategories = async (req, res) => {
-  console.log("get all categories End-Point working");
+async function addUser(userInfo) {
   const client = await pool.connect();
+  let response;
   try {
-    console.log("get all categories End-Point working");
-    const categoriesArr = await client.query(`SELECT name FROM category`);
-    res.status(200).send({ categoriesArr });
+    response = await client.query(
+      `INSERT INTO users (name, email, id, password) VALUES ('${userInfo.name}','${userInfo.mail}', '${userInfo.id}','${userInfo.password}')`
+    );
+    res.status(200).send({ message: "added user successfully" });
   } catch (error) {
     throw new Error(error ? error.message : "Error");
   } finally {
     client.release();
   }
-};
+  return response.rows;
+}
+
+module.exports = { addUser };
