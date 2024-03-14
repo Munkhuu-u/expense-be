@@ -23,9 +23,11 @@ exports.login = async (req, res) => {
     );
     console.log("result.rows: ", result.rows);
     if (req.body.password == result.rows[0]?.password) {
-      res.status(200).send({ message: "access granted" });
+      // res.status(200).send({ message: "access granted" });
+      // return { message: "access granted" };
     } else {
-      res.status(200).send({ message: "incorrect password or username" });
+      // res.status(200).send({ message: "incorrect password or username" });
+      // return { message: "incorrect password or username" };
     }
   } catch (error) {
     throw new Error(error ? error.message : "Error");

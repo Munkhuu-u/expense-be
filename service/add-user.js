@@ -19,13 +19,13 @@ async function addUser(userInfo) {
     response = await client.query(
       `INSERT INTO users (name, email, id, password) VALUES ('${userInfo.name}','${userInfo.mail}', '${userInfo.id}','${userInfo.password}')`
     );
-    res.status(200).send({ message: "added user successfully" });
+    // res.status(200).send({ message: "added user successfully" });
   } catch (error) {
     throw new Error(error ? error.message : "Error");
   } finally {
     client.release();
   }
-  return response.rows;
+  return { message: "SUCCESS" };
 }
 
 module.exports = { addUser };

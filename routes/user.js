@@ -3,7 +3,6 @@ const { addUser } = require("../service/add-user");
 
 registerRouter.post("/addUser", async (req, res) => {
   const userInfo = req.body;
-  console.log();
   const result = await addUser(userInfo);
   res.json(result);
 });
