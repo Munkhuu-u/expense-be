@@ -1,5 +1,5 @@
 const registerRouter = require("express").Router();
-const { addUser } = require("../service/add-user");
+const { addUser, signinUser } = require("../service/user-service");
 
 registerRouter.post("/addUser", async (req, res) => {
   const userInfo = req.body;
@@ -7,4 +7,11 @@ registerRouter.post("/addUser", async (req, res) => {
   res.json(result);
 });
 
-module.exports = registerRouter;
+registerRouter.post("/sign-in", async (req, res) => {
+  const userInfo = req.body;
+  console.log("userInfo: ", userInfo);
+  const result = await signinUser(userInfo);
+  res.json(result);
+});
+
+module.exports = { registerRouter };

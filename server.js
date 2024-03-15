@@ -5,12 +5,13 @@ const transaction = require("./transaction.json");
 const bodyparser = require("body-parser");
 require("dotenv").config();
 
-const registerRouter = require("./routes/user.js");
-const dbRouter = require("./routes/dbmanage.js");
+const { registerRouter } = require("./routes/user.js");
+const { dbRouter } = require("./routes/dbmanage.js");
 const app = express();
 
 app.use(cors());
 app.use(bodyparser.json());
+
 app.use(registerRouter);
 app.use(dbRouter);
 
