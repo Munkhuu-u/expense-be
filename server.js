@@ -7,6 +7,7 @@ require("dotenv").config();
 
 const { registerRouter } = require("./routes/user.js");
 const { dbRouter } = require("./routes/dbmanage.js");
+const { categoryRouter } = require("./routes/category.js");
 const app = express();
 
 app.use(cors());
@@ -14,6 +15,7 @@ app.use(bodyparser.json());
 
 app.use(registerRouter);
 app.use(dbRouter);
+app.use(categoryRouter);
 
 app.listen(3001, () => {
   console.log("Back End app is listening at port 3001");

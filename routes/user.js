@@ -8,9 +8,7 @@ registerRouter.post("/addUser", async (req, res) => {
 });
 
 registerRouter.post("/sign-in", async (req, res) => {
-  const userInfo = req.body;
-  console.log("userInfo: ", userInfo);
-  const result = await signinUser(userInfo);
+  const result = await signinUser(req.body);
   res.json(result);
 });
 

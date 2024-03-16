@@ -1,24 +1,30 @@
 // Todoes in BE
 
-//DB
-// Create Tables
-//  Users
-//  Categories
-//  Transaction
-//  express router          DONE
-
 //SIGNUP
 // REGISTER                 DONE
 // update with currency     DONE
 // Validation
 
+//SIGNUP
+// create row in DB
+// load when load
+// update on currency
+// go to dashboard
+
 //LOGIN
 // Check password           DONE
-// save id to local
+// save id to local         DONE
+// loader
+// when load get all transactions
+// go to dashboard
 
 //TRANSACTION
+// Create table
 // REGISTER
+// FOREIGN KEY (user, cat ID)
 
 //CATEROGY
 // create table             DONE
-// REGISTER                 DONE
+// crete default options
+
+// LOG-OUT

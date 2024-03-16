@@ -14,7 +14,6 @@ const pool = new Pool({
 
 async function changeColType(userInfo) {
   const client = await pool.connect();
-  console.log("userInfo: ", userInfo);
   const Query = `ALTER TABLE users ALTER COLUMN email TYPE unique (email)`;
   console.log("Query: ", Query);
   let response;

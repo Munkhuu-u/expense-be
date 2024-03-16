@@ -29,11 +29,8 @@ async function addUser(userInfo) {
 
 async function signinUser(userInfo) {
   const client = await pool.connect();
-  console.log("userInfo: ", userInfo);
-  const query = `SELECT password FROM users WHERE email='${userInfo.userName}'`;
+  const query = `SELECT password, id FROM users WHERE email='${userInfo.userName}'`;
   let response;
-  console.log("query: ", query);
-
   try {
     response = await client.query(query);
   } catch (error) {
@@ -41,10 +38,9 @@ async function signinUser(userInfo) {
   } finally {
     client.release();
   }
-  console.log("response: ", response);
 
   if (userInfo.password == response.rows[0].password) {
-    return { message: "SUCCESS" };
+    return { message: "SUCCESS", id: response.rows[0].id };
   } else {
     return { message: "WRONG PASSWORD" };
   }
